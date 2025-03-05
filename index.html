@@ -703,15 +703,32 @@
         justify-content: space-between !important;
         margin: 10px 0 !important;
         font-size: 16px !important;
-        color: black !important;
+        color: black;
       }
       .feature-check {
-        color: lightgreen !important;
+        color: darkgreen !important;
         font-size: 20px !important;
       }
       .feature-cross {
+        color: darkorange !important;
+        font-size: 20px !important;
+      }
+      .blue-section-feature-check {
         color: lightgreen !important;
         font-size: 20px !important;
+      }
+      .blue-section-text {
+        color: white !important;
+      }
+      .new-btn {
+        background-color: #009dff !important;
+        color: white !important;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        display: inline-block; /* Ensures proper spacing */
+        text-align: center;
+        text-decoration: none; /* Removes default link underline */
       }
     </style>
 
@@ -744,14 +761,18 @@
                 id="pricing"
                 data-kt-scroll-offset="{default: 100, lg: 150}"
               >
-                Clear Pricing Makes it Easy
+                Our Plans
               </h1>
               <div class="text-gray-600 fw-semibold fs-5">
-                Save thousands to millions of bucks by using a single tool for
-                different amazing and outstanding cool and great useful admin
+                We have saved parents thousands of pounds through using our
+                study tool instead of traditional tutoring
               </div>
+              <a href="https://docs.google.com/forms/d/10cqUzTxExlYkk5e2oFWFp9Bw0p3WR9vZ6gVKxVtgF9k/viewform" class="new-btn text-center mt-4" target="_blank" rel="noopener noreferrer">
+                Select
+            </a>
             </div>
             <!--end::Heading-->
+
             <!--begin::Pricing-->
             <div class="text-center" id="kt_pricing">
               <!--begin::Row-->
@@ -761,44 +782,46 @@
                   <div
                     class="w-100 d-flex flex-column flex-center rounded-3 bg-white py-15 px-10"
                   >
-                    <h1 class="text-dark mb-5 fw-boldest">Student Saver Plan</h1>
+                    <h1 class="text-dark mb-5 fw-boldest">
+                      Student Saver Plan
+                    </h1>
                     <div class="text-gray-400 fw-semibold mb-5">
-                      Best Settings for Students
+                      Best for parents that want to try us out
                     </div>
                     <div class="text-center">
-                      <span class="mb-2 text-primary">$</span>
+                      <!-- <span class="mb-2 text-primary">£</span> -->
                       <span class="fs-3x fw-bold text-primary">Free</span>
-                      <span class="fs-7 fw-semibold opacity-50">/ Mon</span>
+                      <!-- <span class="fs-7 fw-semibold opacity-50">/ Mon</span> -->
                     </div>
                     <ul class="feature-list">
                       <li>
-                        <span>2 Free Lectures Monthly</span>
+                        <span>Up to 2 free tuition sessions</span>
                         <span class="feature-check">✔</span>
                       </li>
                       <li>
-                        <span>Progress Updates </span>
+                        <span>Complete access to our app </span>
                         <span class="feature-check">✔</span>
                       </li>
                       <li>
-                        <span>Student Earn Voucher Rewards</span>
-                        <span class="feature-cross">✔</span>
+                        <span>Progress Updates</span>
+                        <span class="feature-check">✔</span>
                       </li>
                       <li>
-                        <span>Access Unlimited Rewards</span>
-                        <span class="feature-cross">✔</span>
+                        <span>Student earns voucher rewards</span>
+                        <span class="feature-check">✔</span>
+                      </li>
+                      <li>
+                        <span>Progress Updates</span>
+                        <span class="feature-check">✔</span>
                       </li>
                       <li>
                         <span>Request Tutor Any Time</span>
-                        <span class="feature-cross">✔</span>
-                      </li>
-                      <li>
-                        <span>Personlised Attention</span>
-                        <span class="feature-cross">✔</span>
+                        <span class="feature-check">✔</span>
                       </li>
                     </ul>
-                    <a href="#" class="new-btn btn-primary text-center mt-4"
+                    <!-- <a href="#" class="new-btn btn-primary text-center mt-4"
                       >Select</a
-                    >
+                    > -->
                   </div>
                 </div>
                 <!--end::Col-->
@@ -811,7 +834,7 @@
                         class="second-card mb-5 fw-boldest"
                         style="color: white !important"
                       >
-                        Budget Plan
+                        Support Plan
                       </h1>
                       <div
                         class="text-white opacity-75 fw-semibold mb-5"
@@ -820,11 +843,11 @@
                         Best Pricing for Students
                       </div>
                       <div class="text-center">
-                        <span class="mb-2 text-white">$</span>
+                        <span class="mb-2 text-white">£</span>
                         <span
                           class="fs-3x fw-bold"
                           style="color: white !important"
-                          >60</span
+                          >40</span
                         >
                         <span class="fs-7 fw-semibold text-white opacity-75"
                           >/ Mon</span
@@ -832,47 +855,37 @@
                       </div>
                       <ul class="feature-list">
                         <li>
-                          <span>Everything From The Free Plan </span>
-                          <span class="feature-check">✔</span>
+                          <span class="blue-section-text"
+                            >3x free revision sessions with a tutor
+                          </span>
+                          <span class="blue-section-feature-check">✔</span>
                         </li>
                         <li>
-                          <span>Up to 15 Personlity Types </span>
-                          <span class="feature-check">✔</span>
+                          <span class="blue-section-text"
+                            >Monthly 1-1 lessons with a tutor
+                          </span>
+                          <span class="blue-section-feature-check">✔</span>
                         </li>
                         <li>
-                          <span
-                            class="card-features"
-                            style="color: white !important"
-                            >Personlised Lesson for Strengths and Weaknesses</span
-                          >
-                          <span
-                            class="feature-cross"
-                            style="color: lightgreen !important"
-                            >✔</span
-                          >
+                          <span class="blue-section-text"
+                            >Complete access to our app
+                          </span>
+                          <span class="blue-section-feature-check">✔</span>
                         </li>
                         <li>
-                          <span style="color: white !important"
-                            >Monthly 1-1 Lesson with Tutor</span
-                          >
-                          <span
-                            class="feature-cross"
-                            style="color: lightgreen !important"
-                            >✔</span
-                          >
+                          <span class="blue-section-text"
+                            >Progress updates
+                          </span>
+                          <span class="blue-section-feature-check">✔</span>
                         </li>
                         <li>
-                          <span style="color: white !important"
-                            >Support in Weak Areas of a Subject</span
-                          >
-                          <span
-                            class="feature-cross"
-                            style="color: lightgreen !important"
-                            >✔</span
-                          >
+                          <span class="blue-section-text"
+                            >Students earn cash rewards and vouchers
+                          </span>
+                          <span class="blue-section-feature-check">✔</span>
                         </li>
                       </ul>
-                      <a href="#" class="new-btn btn-light">Select</a>
+                      <!-- <a href="#" class="new-btn btn-light">Select</a> -->
                     </div>
                   </div>
                 </div>
@@ -882,38 +895,47 @@
                     <div
                       class="w-100 d-flex flex-column flex-center rounded-3 bg-white py-15 px-10"
                     >
-                      <h1 class="text-dark mb-5 fw-boldest">Premium Plan</h1>
+                      <h1 class="text-dark mb-5 fw-boldest">
+                        Achievement Plan
+                      </h1>
                       <div class="text-gray-400 fw-semibold mb-5">
                         Best Settings for Best Grades
                       </div>
                       <div class="text-center">
-                        <span class="mb-2 text-primary">$</span>
-                        <span class="fs-3x fw-bold text-primary">100</span>
+                        <span class="mb-2 text-primary">£</span>
+                        <span class="fs-3x fw-bold text-primary">80</span>
                         <span class="fs-7 fw-semibold opacity-50">/ Mon</span>
                       </div>
                       <ul class="feature-list">
-                        <li>
+                        <!-- <li>
                           <span>Everything From the Free Plan </span>
                           <span class="feature-check">✔</span>
-                        </li>
+                        </li> -->
                         <li>
-                          <span>Weekly Session With A Tutor in a Subject Of Choice</span>
+                          <span>4x free revision sessions with a tutor</span>
                           <span class="feature-check">✔</span>
                         </li>
                         <li>
-                          <span>Additional 2 Free Sessions</span>
-                          <span class="feature-cross">✖</span>
+                          <span
+                            >Weekly 1-2-1 sessions with a tutor on your subject
+                            of choice</span
+                          >
+                          <span class="feature-check">✔</span>
                         </li>
                         <li>
-                          <span>Hourly Session to Identify Areas for Improvement </span>
-                          <span class="feature-cross">✖</span>
+                          <span>Complete access to our app </span>
+                          <span class="feature-check">✔</span>
                         </li>
                         <li>
-                          <span>Hourly Session To Address Identified Issues</span>
-                          <span class="feature-cross">✖</span>
+                          <span>Progress updates</span>
+                          <span class="feature-check">✔</span>
+                        </li>
+                        <li>
+                          <span>Students earn cash rewards and vouchers</span>
+                          <span class="feature-check">✔</span>
                         </li>
                       </ul>
-                      <a href="#" class="new-btn btn-primary">Select</a>
+                      <!-- <a href="#" class="new-btn btn-primary">Select</a> -->
                     </div>
                   </div>
                 </div>
@@ -941,7 +963,7 @@
           <div class="col-xl-6">
             <div class="section-heading text-center mb-50">
               <h2 class="font-lg">Feedback</h2>
-              <p>Find out what our students have to say</p>
+              <p>Find out what our Students and their Parents have to say</p>
             </div>
           </div>
         </div>
@@ -1024,11 +1046,11 @@
                     class="testimonial-text mb-30"
                     style="font-size: 16px; color: #000"
                   >
-                    I used to find online learning boring, but this platform
-                    changed everything. The personality-based learning path made
-                    studying more interesting. I loved earning tokens for
-                    completing quizzes and challenges, and the rewards made all
-                    the effort worthwhile!
+                    As a parent, I worried about my child's motivation while
+                    studying online. This platform changed our experience! The
+                    personalized approach kept him engaged, and the reward
+                    system encouraged consistency. Seeing his confidence grow
+                    has been the best reward.
                   </div>
 
                   <div class="client-info d-flex align-items-center">
@@ -1040,8 +1062,8 @@
                       />
                     </div>
                     <div class="testimonial-author">
-                      <h4>Oliver Chen</h4>
-                      <span class="meta">A-Level English Student</span>
+                      <h4>Emma Johnson</h4>
+                      <span class="meta">Parent of a GCSE Student</span>
                     </div>
                   </div>
                 </div>
